@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminPanel.master.cs" Inherits="Porfolio_dynamic.AdminPanel" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Admin Panel</title>
+    <link href="css/AdminPanel.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" class="AdminMaster">
+        <div>
+            <h1>Admin Panel</h1>
+            <asp:ContentPlaceHolder ID="SectionControl" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

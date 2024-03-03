@@ -1,0 +1,17 @@
+﻿.grid-view th {
+    background-color: #414141;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 12px;
+}
+
+.grid-view td {
+    background-color: white;
+    color: black;
+    border: 1px solid #000;
+    padding: 12px;
+}
+
+.grid-view tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
